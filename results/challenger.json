@@ -1,0 +1,26 @@
+{
+ "train": {
+  "gini_challenger": 0.6167894597628265,
+  "gini_scorecard": 0.3297152685261555
+ },
+ "test_intime": {
+  "gini_challenger": 0.3422394615464355,
+  "gini_scorecard": 0.3101993993280643
+ },
+ "oot_2014": {
+  "gini_challenger": 0.3571086601755433,
+  "gini_scorecard": 0.3249746064785073
+ },
+ "top_features_by_gain": {
+  "annual_inc": 0.083,
+  "bc_open_to_buy": 0.067,
+  "loan_to_income": 0.058,
+  "emp_length": 0.051,
+  "acc_open_past_24mths": 0.046,
+  "revol_util": 0.042,
+  "bc_util": 0.041,
+  "purpose": 0.038,
+  "dti": 0.037,
+  "loan_amnt": 0.036
+ }
+}

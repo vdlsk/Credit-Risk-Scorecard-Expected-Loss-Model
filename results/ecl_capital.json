@@ -1,0 +1,69 @@
+{
+ "parameters": {
+  "lgd_overall": 0.9082726828280533,
+  "lgd_by_grade": {
+   "A": 0.9177,
+   "B": 0.9097,
+   "C": 0.9045,
+   "D": 0.9057,
+   "E": 0.9042,
+   "F": 0.8801,
+   "G": 0.9259
+  },
+  "share_defaults_in_first_12m": 0.22552026286966045,
+  "ead_factor_12m": 0.8927870213231317,
+  "ead_factor_lifetime": 0.5929211322316305,
+  "avg_default_time_yrs_12m": 0.7449409098267767,
+  "avg_default_time_yrs_life": 1.7265516611902154,
+  "crisis_odds_multiplier": 1.374282806456981,
+  "crisis_multiplier_95ci": [
+   1.2077264496848956,
+   1.5638087851897575
+  ],
+  "lgd_addon_adverse": 0.05,
+  "n_defaults_used": 9130,
+  "realised_loss_2014": 139310063.4493,
+  "undiscounted_loss_model": 121514303.59859025,
+  "undiscounted_loss_recal": 142220107.0757269,
+  "backtest_model_vs_realised": 0.8722579014746752,
+  "backtest_recal_vs_realised": 1.0208889692128091
+ },
+ "scenarios": [
+  {
+   "scenario": "Baseline (model PD)",
+   "exposure": 1928798050.0,
+   "avg_pd_lifetime": 0.12470800465163114,
+   "avg_pd_12m": 0.028124181990986694,
+   "avg_lgd": 0.9089000255576134,
+   "ecl_stage1_12m": 37614875.56965634,
+   "ecl_stage2_lifetime": 98144190.84460112,
+   "rwa": 2259480129.3347836,
+   "capital_8pct": 180758410.34678268,
+   "rwa_density": 1.1714446358626212
+  },
+  {
+   "scenario": "Baseline (recalibrated PD)",
+   "exposure": 1928798050.0,
+   "avg_pd_lifetime": 0.1457337928513616,
+   "avg_pd_12m": 0.03286592327283171,
+   "avg_lgd": 0.9089000255576134,
+   "ecl_stage1_12m": 44033032.20824173,
+   "ecl_stage2_lifetime": 114919987.86026932,
+   "rwa": 2339735358.0756617,
+   "capital_8pct": 187178828.64605296,
+   "rwa_density": 1.2130535688148698
+  },
+  {
+   "scenario": "Adverse (crisis PD x LGD +5pp)",
+   "exposure": 1928798050.0,
+   "avg_pd_lifetime": 0.18745702415002147,
+   "avg_pd_12m": 0.04227535736307712,
+   "avg_lgd": 0.9589000255576133,
+   "ecl_stage1_12m": 59961355.817487955,
+   "ecl_stage2_lifetime": 156567962.37873727,
+   "rwa": 2593438751.9331384,
+   "capital_8pct": 207475100.15465108,
+   "rwa_density": 1.3445880204685703
+  }
+ ]
+}
